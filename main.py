@@ -4,7 +4,7 @@ sec = 0
 min = 0
 mtfcount = 0
 elg = False
-length = 1200
+length = 1200 #how many seconds this program will run for. Default is 1200 (20 minutes)
 
 while count <= length:
     if sec % 60 == 0 and count != 0:
