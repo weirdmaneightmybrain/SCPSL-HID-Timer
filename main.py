@@ -20,7 +20,6 @@ while count <= length:
         sec += 1
     else:
         elg = False
-        mtfcount = 0
         hid.write( f"{min:02d}:" + f"{sec:02d}" + "\n")
         hid.write( f"{min:02d}:" + f"{sec:02d}" + "\n")
         count += 1
